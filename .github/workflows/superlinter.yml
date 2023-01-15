@@ -1,9 +1,9 @@
-name: Superlinter
+name: Linter
 
 on: push
 
 jobs:
-  super-lint:
+  lint:
     name: Linting Codebase
     runs-on: ubuntu-latest
     steps:
